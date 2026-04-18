@@ -49,7 +49,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 md:h-20">
           <a href="#" className="flex items-center gap-3 group">
             <img
-              src="/logo.png"
+              src="/logo.webp"
               alt="Logo"
               className="h-10 w-10 object-contain transition-transform duration-300 group-hover:scale-110"
             />

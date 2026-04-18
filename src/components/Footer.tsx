@@ -47,7 +47,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
           <div>
             <div className="flex items-center gap-3 mb-5">
-              <img src="/logo.png" alt="There Is No Planet B" className="h-12 w-12 object-contain" />
+              <img src="/logo.webp" alt="There Is No Planet B" className="h-12 w-12 object-contain" />
               <div>
                 <span className="block font-secular text-[#1DF659] text-sm leading-tight">THERE IS <span className="text-[#D30202]">NO</span></span>
                 <span className="block font-secular text-white text-sm leading-tight">PLANET <span className="text-[#1DF659]">B</span></span>
