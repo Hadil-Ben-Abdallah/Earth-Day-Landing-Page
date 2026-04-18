@@ -80,14 +80,17 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#00181C]">
       <picture className="absolute inset-0 w-full h-full">
-        <source srcSet="/hero-xs.png" media="(max-width: 800px)" />
-        <source srcSet="/hero-s.png" media="(max-width: 899px)" />
-        <source srcSet="/hero.png" media="(min-width: 900px)" />
+        <source srcSet="/hero-xs.webp" media="(max-width: 800px)" />
+        <source srcSet="/hero-s.webp" media="(max-width: 899px)" />
+        <source srcSet="/hero.webp" media="(min-width: 900px)" />
         <img
-          src="/hero.png"
-          alt=""
+          src="/hero.webp"
+          alt="earth image in form of a woman"
           aria-hidden="true"
           className="w-full h-full object-cover object-center"
+          loading="eager"
+          fetchPriority="high"
+          decoding="async"
         />
       </picture>
 
