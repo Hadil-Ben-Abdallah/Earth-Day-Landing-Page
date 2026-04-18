@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&family=Inter:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+  background: #0ff750;
+  color: #001e23;
+}
+
+/* Width of scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background: #001e23;
+}
+
+/* Thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #0ff750;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+  border: 1px solid #001e23;
+}
+
+/* Hover effect */
+::-webkit-scrollbar-thumb:hover {
+  background: #0bd444;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: "Inter", sans-serif;
+    background-color: #00181c;
+    color: #ffffff;
+    overflow-x: hidden;
+    cursor: url("/cursors/Earth-cursor.png"), auto;
+  }
+
+  a,
+  button,
+  [role="button"] {
+    cursor: url("/cursors/Earth-pointer.png"), pointer;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: "Secular One", sans-serif;
+  }
+}
+
+@layer utilities {
+  .font-secular {
+    font-family: "Secular One", sans-serif;
+  }
+
+  .font-inter {
+    font-family: "Inter", sans-serif;
+  }
+}
