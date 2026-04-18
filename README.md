@@ -41,7 +41,7 @@ This project was created for the **DEV Weekend Challenge (Earth Day Edition)**.
 
 ---
 
-## 🎯 Goals:
+## 🎯 Goals
 - Align with the **Earth Day theme**
 - Deliver a **creative and meaningful user experience**
 - Showcase **modern frontend development practices**
